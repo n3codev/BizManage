@@ -1,0 +1,39 @@
+.table-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  column-gap: 2.4rem;
+  align-items: center;
+  padding: 1.4rem 2.4rem;
+  color: #646464;
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.table-row.selected {
+  border-color: #96d0ff;
+  background-color: #cce8ff;
+}
+
+.table-row:last-child {
+  margin-bottom: 0;
+}
+
+.info {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--color-grey-600);
+  display: flex;
+  gap: 1.4rem;
+  text-align: center;
+}
+
+.info2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-grey-500);
+  gap: 1.4rem;
+  text-align: center;
+}

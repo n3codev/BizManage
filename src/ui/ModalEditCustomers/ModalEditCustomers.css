@@ -1,0 +1,69 @@
+.edit-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-modal-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 28px;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-button-discard {
+  border: 1px solid #f9c74f;
+  background-color: #ffffe0;
+  color: black;
+  width: 50%;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.edit-button-discard:hover {
+  background-color: #f9c74f;
+  color: white;
+}
+
+.edit-button-save {
+  background-color: #dcfcdc;
+  border: 1px solid #2f8f2f;
+  color: black;
+  width: 50%;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 1rem;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.edit-button-save:hover {
+  background-color: #2f8f2f;
+  color: white;
+}
+
+.edit-label {
+  color: black;
+  margin-top: 1rem;
+}
+
+.edit-input {
+  width: 100%;
+  border-radius: 6px;
+  border-color: #bdbdbd;
+  padding: 0.5rem;
+}
+
+.edit-button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}

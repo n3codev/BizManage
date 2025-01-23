@@ -1,0 +1,32 @@
+.table {
+  padding: 1rem 2rem 2.5rem 0;
+  font-size: 1.4rem;
+  width: 70%;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.table-header-customers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 2.4rem;
+  align-items: center;
+  border: 1px #dbdbdb solid;
+  letter-spacing: 0.4px;
+  font-weight: 600;
+  color: #000000;
+  padding: 1.2rem;
+  margin-bottom: 0.5rem;
+  background-color: #ebebeb;
+  border-radius: 12px;
+  height: 6rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 0;
+}

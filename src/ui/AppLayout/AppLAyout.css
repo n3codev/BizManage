@@ -1,0 +1,10 @@
+.app-layout {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 26rem 1fr;
+  grid-template-rows: auto 1fr;
+  background-color: #f3f3f3;
+}
+
+.main {
+}

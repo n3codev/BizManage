@@ -1,0 +1,8 @@
+.page-not-found {
+  height: 100vh;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4.8rem;
+}
