@@ -30,3 +30,8 @@ It allows adding, editing, and deleting records with an intuitive user experienc
 
 ## 🧪 Mock Backend  
 Supabase was used to handle data and simulate a REST API.  
+
+## 🖼️ Project Previews
+
+![Image](https://github.com/user-attachments/assets/c6d8c4dc-9e15-46d2-b1c5-8d1fa7299a02)![Image](https://github.com/user-attachments/assets/157605ab-73a8-4fbc-8cec-503d8e63e0f0)
+![Image](https://github.com/user-attachments/assets/8d8216ea-e55c-4cf0-8f5d-b94f090d401c)![Image](https://github.com/user-attachments/assets/5aac05a4-43cb-45e5-9836-cac2ece16109)
